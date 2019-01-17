@@ -1,0 +1,39 @@
+
+
+----------Redes
+6 Proyectos de investigacion
+
+
+------------Sistemas
+subirle las tareas atrasadas
+
+
+----------Etica
+codigo de etica dead line HOYY (que es ensayo y proyecto final)
+guia de orientaciones y principios (valores y amistad) en el ambito profesional
+
+j
+
+---------Imaginacion
+actividad extra del dia de la filosofia	
+Collage imagen y narrativa (individual)
+Poder hacer una narrativa de como nos vemos en le fitirp 30-40 años (que act hacemos como
+imprimir comida y cosas asi) Riverstory 
+
+
+
+-----------------Despues del miercoles
+
+Faltaria presentar examen final de etica (viernes 23 8:00 )
+Faltaria presentar examen final de redes (porb el viernes 23)
+Faltaria presentar examen final de sistemas  (martes 27 a las 2:30)
+Faltaria presentar el documento final de la materia de imaginacion (Miercoles 28 a las 10:30 en a2 333)
+* la reflexion sera del hombre bicentenario en adelante y blade runner y animatrix ()
+*** Reflexion 3-4 cuartillas (identidad, emocion artificial, etc)
+
+
+
+#toda la documentacion
+#find y el sort para listas
+#funciones para el output grafico
+#modular todo el codigo
