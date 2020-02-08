@@ -18,8 +18,3 @@ Otro motivo fue para entender bien concecptos sumamente importantes como la admi
 
 * **Roberto Pérez** - *Desarrollo inicial* - [Robertocml](https://github.com/robertocml)
 * **Andrés Martínez** - *Desarrollo inicial* - [AndresMartinez97](https://github.com/AndresMartinez97)
-
-## Licencia:
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
