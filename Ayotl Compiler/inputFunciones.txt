@@ -1,0 +1,206 @@
+proGram main;
+
+int a[10];
+int matA[2][2];
+int matB[2][2];
+int matResult[2][2];
+
+
+void matMult(int lenA1,int lenA2,int lenB1,int lenB2){
+	int auxExtraSlow;
+	int auxSlow;
+	int auxFast;
+
+	for(auxExtraSlow=0;auxExtraSlow<lenA1;auxExtraSlow=auxExtraSlow+1){
+		for(auxSlow=0;auxSlow<lenB2;auxSlow=auxSlow+1){
+			for(auxFast=0;auxFast<lenB1;auxFast=auxFast+1){
+				matResult[auxExtraSlow][auxSlow]=matResult[auxExtraSlow][auxSlow] + matA[auxExtraSlow][auxFast]*matB[auxFast][auxSlow];
+			}
+		}
+	}
+}	
+
+void printMat(int len1,int len2){
+	int r;
+	int c;
+	for(c=0;c<len2;c=c+1){
+		for(r=0;r<len1;r=r+1){
+			print(matResult[r][c]);
+		}
+	}
+
+}
+
+
+
+void printArr(int len){
+	int k;
+	for(k=0;k<len;k=k+1){
+		print(a[k]);
+	}
+}
+
+void swap(int indice1,int indice2){
+	int aux;
+
+	aux=a[indice1];
+	a[indice1]=a[indice2];
+	a[indice2]=aux;
+
+
+}
+
+void bubbleSort(int len){
+	int isSorted;
+	int apunt1;
+	int apunt2;
+	int k;
+
+
+	apunt1=0;
+	isSorted=0;
+	
+	while(isSorted==0){
+		isSorted=1;
+		apunt1=0;
+		for(apunt2=1;apunt2<len;apunt2=apunt2+1){
+			if(a[apunt1] > a[apunt2]){
+				swap(apunt1,apunt2);
+				isSorted=0;
+			}
+
+			apunt1=apunt1+1;
+		}
+	}
+
+}
+
+
+int fiboCiclo(int num){
+	int aux1;
+	int aux2;
+	int sum;
+	int cont;
+	aux1=0;
+	aux2=1;
+	sum=0;
+	cont=0;
+
+	for(cont=0;cont<num;cont=cont+1){
+		sum=aux1+aux2;
+		aux1=aux2;
+		aux2=sum;
+	}
+	return aux1;
+}
+
+
+int fiboRecursivo(int num){
+	int result;
+	if(num==1 || num==2){
+		result=1;
+	}else{
+		result=fiboRecursivo(num-2)+fiboRecursivo(num-1);
+	}
+
+	return result;
+}
+
+
+int find(int x,int len){
+	int result;
+	int k;
+
+	result=-1;
+	
+	for(k=0;k<len;k=k+1){
+		if(a[k]==x){
+			result=k;
+		}
+	}
+	return result;
+}
+
+void drawTree(){
+	int b;
+	b=2;
+}
+
+{
+	int b;
+	int k;
+	b=3;
+#	print(fiboCiclo(b));
+#	print(fiboRecursivo(b));
+
+
+
+
+	a[0]=6;
+	a[1]=5;
+	a[2]=7;
+	a[3]=8;
+	a[4]=1;
+	a[5]=2;
+	a[6]=9;
+	a[7]=1;
+	a[8]=2;
+	a[9]=17;
+
+	readInt(b);
+
+ 	bubbleSort(10);
+ 	printArr(10);
+
+ 	print(find(b,10));
+
+ 	print(11111111);
+ 	matA[0][0]=2;
+	matA[0][1]=2;
+	matA[1][0]=2;
+	matA[1][1]=2;
+
+	matB[0][0]=2;
+	matB[0][1]=2;
+	matB[1][0]=2;
+	matB[1][1]=2;
+
+	matMult(2,2,2,2);
+	printMat(2,2);
+
+	#drawTree();
+	print(1.5);
+
+	color(0,1,0);
+	backward(100);
+	right(-45);
+	forward(170);
+	right(45);
+	backward(80);
+	right(-45);
+	forward(120);#sdfsdf
+	right(45);
+	backward(40);
+	right(-45);
+	forward(80);
+	right(90);
+	forward(80);
+	right(90+45);
+	forward(40);
+	right(45);
+	backward(120);
+	left(45);
+	forward(80);
+	right(45);
+	backward(170);
+	left(45);
+	forward(100);
+	color(1,0,0);
+	left(90);
+	forward(50);
+	right(90);
+	forward(80);#ancho tronco
+	right(90);
+	forward(50);
+	readint(b);
+}
